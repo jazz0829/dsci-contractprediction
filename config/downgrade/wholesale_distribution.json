@@ -1,0 +1,18 @@
+{
+  "product":"Wholesale distribution",
+  "phase": "All",
+  "country":"NL",
+  "period": 3,
+  "window_activities": 30,
+  "window_contract": 91,
+  "model_folder": "C:/DowngradePredictionModels/",
+  "model_file_prefix": "WholesaleModel_",
+  "algorithm": "LogisticRegression",
+  "accepted_auc": 0.82,
+  "predictors":  ["TenureInMonthsUpgrade","RecentUseMobile", "LoginFreq", 
+          "AccountantOrLinked", "ActiveUsers", "Sector", 
+          "HasBankLink", "HasWholesaleName", "LogQuoteCount", "LogAccountCount",
+          "LogStockCountEntryCount", "LogItemCount", "LogSalesOrderEntryCount",
+          "LogPurchaseOrderEntryCount" ],
+  "label": "Downgraded"
+}

@@ -1,0 +1,18 @@
+{
+  "product":"Accounting",
+  "phase": "Onboarding",
+  "country":"NL,BE",
+  "period": 3,
+  "window_activities": 91,
+  "window_contract": 91,
+  "model_folder": "C:/ChurnPredictionModels/",
+  "model_file_prefix": "AccountingOnboardingModel_",
+  "algorithm": "LogisticRegression",
+  "accepted_auc": 0.75,
+  "predictors":  ["TenureInMonths", "Accountant", "MasterDataSetupType",
+                  "LogBankEntryCount", "LogCashEntryCount",  "LogAccountCount",
+                  "LogPageviews", "LogSalesEntryCount", "LogPurchaseEntryCount", 
+                  "HasCurrencyCount", 
+                  "LogGeneralJournalEntryCount", "EntrepreneurActive", "Environment"],
+  "label": "Churned"
+}

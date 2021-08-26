@@ -1,0 +1,17 @@
+{
+  "product":"Manufacturing",
+  "phase": "All",
+  "country":"NL",
+  "period": 3,
+  "window_activities": 30,
+  "window_contract": 91,
+  "model_folder": "C:/ChurnPredictionModels/",
+  "model_file_prefix": "ManufacturingModel_",
+  "algorithm": "LogisticRegression",
+  "accepted_auc": 0.83,
+  "predictors":  ["TenureInMonthsUpgrade","RecentUseMobile", "LoginFreq", 
+                  "HasBankLink",  "LogBankEntryCount", "HasSalesInvoice",
+                  "LogSalesEntryCount","LogPurchaseEntryCount", 
+                  "LogManufacturingActivities" ],
+  "label": "Churned"
+}

@@ -1,0 +1,16 @@
+{
+  "product":"Professional services",
+  "phase": "All",
+  "country":"NL,BE",
+  "period": 3,
+  "window_activities": 30,
+  "window_contract": 91,
+  "model_folder": "C:/DowngradePredictionModels/",
+  "model_file_prefix": "ProfessionalServicesModel_",
+  "algorithm": "LogisticRegression",
+  "accepted_auc": 0.80,
+  "predictors":  ["RecentUseMobile", "HasSalesInvoice", "LogProjectsCount", "LogProjectTimeCostEntriesCount",
+    "BankLink", "Big3BankAccount", "HasBankLink", "HasBig3BankAccount",
+    "LogTenureInMonths", "LogTenureInMonthsUpgrade", "ProjectTypePrepaidHTB"],
+  "label": "Downgraded"
+}

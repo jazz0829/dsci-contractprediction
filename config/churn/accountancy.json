@@ -1,0 +1,18 @@
+{
+  "product":"Accountancy",
+  "phase": "All",
+  "country":"NL,BE",
+  "period": 3,
+  "window_activities": 91,
+  "window_contract": 91,
+  "model_folder": "C:/ChurnPredictionModels/",
+  "model_file_prefix": "AccountancyModel_",
+  "algorithm": "LogisticRegression",
+  "accepted_auc": 0.8,
+  "predictors":  ["LoginFreq", "LogBankEntryCount", "LogCashEntryCount",
+                  "LogSalesEntryCount", "LogPurchaseEntryCount", "LogGeneralJournalEntryCount",       
+                  "LogOtherAccoutancyActivities", "TenureInMonthsUpgrade", 
+                  "LogNumActivatedDivisions","LogNumActiveLinkedCompanies", 
+                  "LogPageviewsOnLinkedCompanies", "LogTimeSalesInvoiceEntry" ],
+  "label": "Churned"
+}

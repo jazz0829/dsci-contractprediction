@@ -1,0 +1,17 @@
+{
+  "product":"Accounting",
+  "phase": "Established",
+  "country":"NL,BE",
+  "period": 3,
+  "window_activities": 91,
+  "window_contract": 91,
+  "model_folder": "C:/ChurnPredictionModels/",
+  "model_file_prefix": "AccountingEstablishedModel_",
+  "algorithm": "LogisticRegression",
+  "accepted_auc": 0.8,
+  "predictors":  ["LogPageviews", "LogBankEntryCount", "LogCashEntryCount", 
+                  "Accountant","LogSalesEntryCount", "LogPurchaseEntryCount", 
+                  "LogGeneralJournalEntryCount", "EntrepreneurActive", 
+                  "LogTenureInMonthsUpgrade", "Environment"],
+  "label": "Churned"
+}
